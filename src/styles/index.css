@@ -1,11 +1,35 @@
-/* 
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f8f9fa;
+}
+.text-shadow {
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.rounded-xl {
+  border-radius: 1rem !important;
+}
 
-*/
+.card-title {
+  font-size: 1.25rem;
+  color: #333;
+}
+
+.btn-primary {
+  background-color: #ff69b4; /* custom pink */
+  border-color: #ff69b4;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #adb5bd;
+  border-radius: 4px;
+}
+::selection {
+  background-color: #ffc107;
+  color: black;
+}
